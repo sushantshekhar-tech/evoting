@@ -12,7 +12,7 @@ if(mysqli_num_rows($rs)>0){
     $rs=mysqli_query($con,$sql) ;
     echo '<script>
     alert("Plz check your email for OTP and verify");
-    window.location="../partials/validate_otp.php";
+    window.location="../partials/validate_otp.php";czvzcvvzc
     </script>';
     //header("location:actions/verify.php?msg=Plz check your email for OTP and verify");
     //echo "Email found";
